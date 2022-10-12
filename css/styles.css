@@ -774,7 +774,7 @@ textarea{
     background-color: #2196F3;
     background-origin: border-box;
     border-color: #2196F3; 
-    background-image: url(/images/svg/icon_check.svg);
+    background-image: url(./images/svg/icon_check.svg);
     transform: scale(1.2);
 }
 .checkbox-policy{
