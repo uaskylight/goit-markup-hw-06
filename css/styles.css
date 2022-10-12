@@ -760,8 +760,6 @@ textarea{
     margin-left: 4px;
     color: var(--primary-btn-color);
 }
-}
-.checkbox:checked + .icon-policy{
 .checkbox:checked + .icon-check-on{
     background-size: contain;
     background-color: #2196F3;
