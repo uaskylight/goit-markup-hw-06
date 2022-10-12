@@ -63,8 +63,8 @@
         <button class="main-btn" type="button" data-open-modal>Замовити послугу</button>
         <div class="backdrop is-hidden" data-backdrop>
           <div class="modal">
+            <p>Залиште свої дані, ми вам передзвонимо</p>
             <form class="form-modal js-speaker-form">
-              <h2>Залиште свої дані, ми вам передзвонимо</h2>
               <div class="form-field-modal">
                 <label for="name" class="icon-label">Ім'я</label>
                 <input type="text" class="icon-input" name="name" id="name" autofocus autocomplete="on" />
@@ -89,19 +89,19 @@
                   </use>
                 </svg>
               </div>
-              <div class="form-field-modal">
+              <div class="form-field-modal form-field-comment ">
                 <label for="comment">Коментар</label>
                 <textarea class="comment" name="comment" id="comment" rows="7" placeholder="Введіть текст"></textarea>
               </div>
               <div class="checkbox-policy">
                 <label class="policy" for="policy">
                   <input type="checkbox" class="checkbox" name="policy" id="policy" />
-                  <svg class="icon-check-on" width="15" weight="15">
+                  <svg class="icon-check-on">
                     <use href="./images/svg/symbol-defs.svg#icon-on-check">
                     </use>
                   </svg>
-                  Погоджуюся з розсилкою та приймаю <span class="policy-span">Умови
-                    договору</span>
+                  Погоджуюся з розсилкою та приймаю <a href="" class="policy-span"#>Умови
+                  договору</a>
                 </label>
               </div>
               <button class="form-buttom mail-btn" type="submit">Відправити</button>
@@ -488,23 +488,22 @@
           </li>
         </ul>
       </div>
-      <form class="form">
-        <div class="form-field">
-          <label for="mail" class="form-label">Підпишіться на розсилку</label>
-          <input type="email" class="form-input" name="email" id="mail" placeholder="E-mail" />
-        </div>
-        <button type="submit" class="mail-btn">
-          Підписатися
-          <svg class="svg-icon icon-send">
-            <use href="./images/svg/symbol-defs.svg#icon-send-modal">
-            </use>
-          </svg>
-        </button>
-      </form>
+      <div class="form">
+        <form class="form-field">
+          <label for="mailto" class="form-label">Підпишіться на розсилку</label>
+          <input type="email" class="form-input" name="email" id="mailto" placeholder="E-mail" />
+          <button type="submit" class="form-field-btn">
+            Підписатися
+            <svg class="svg-icon icon-send">
+              <use href="./images/svg/symbol-defs.svg#icon-send-modal">
+              </use>
+            </svg>
+          </button>
+        </form>
+      </div>
     </div>
   </footer>
   <script src="./js/modal.js"></script>
-  </script>
   <script src="./js/js-speaker-form.js"></script>
 </body>
 
