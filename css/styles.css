@@ -770,7 +770,6 @@ textarea{
 .policy{
     display: flex;
     align-items: center;
- 
 }
 .icon-check-on{
     width: 15px;
@@ -780,3 +779,4 @@ textarea{
     border: 1px solid #212121;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
+
