@@ -17,6 +17,7 @@
 <path fill="#2196f3" d="M136.533 0h819.2c75.405 0 136.533 61.128 136.533 136.533v750.933c0 75.405-61.128 136.533-136.533 136.533h-819.2C61.128 1023.999 0 962.871 0 887.466V136.533C0 61.128 61.128 0 136.533 0z"></path>
 <path fill="#fff" stroke="#fff" stroke-width="13.653" d="m270.133 529.18-4.695-4.48-70.546 66.825 248.551 237.109 522.183-498.145-70.083-66.856L443.445 694.51 270.134 529.179z"></path>
 </symbol>
-<symbol id="icon-on-check" viewBox="0 0 42 32"><path fill="#fff" style="fill:var(--color1, #fff);stroke:var(--color1, #fff)" stroke="#fff" stroke-width=".64" d="m6.263 15.205-.22-.21-3.307 3.132 11.651 11.114L38.864 5.89l-3.285-3.134-21.192 20.197-8.124-7.75z"/></symbol>
+<symbol id="icon-on-check" viewBox="0 0 42 32"><path fill="#fff" style="fill:var(--color1, #fff);stroke:var(--color1, #fff)" stroke="#fff" stroke-width=".64" d="m6.263 15.205-.22-.21-3.307 3.132 11.651 11.114L38.864 5.89l-3.285-3.134-21.192 20.197-8.124-7.75z"></path>
+</symbol>
 </defs>
 </svg>
