@@ -298,7 +298,7 @@ left: 0;
 .section-item-about {
     font-weight: 700;
     line-height: 1.14;
-    font-size:1.17em;
+    font-size: 14px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -615,11 +615,13 @@ left: 0;
     color:var(--btn);
 }
 .form{
-    display: flex;
-    align-items: flex-end;
+    margin-left: 93px;
+}
+.form-label{
+ 
 }
 .form-field-btn{
-    display: flex;
+   display: flex;
     align-items: center;
     justify-content: center;
     min-width:200px;
@@ -634,7 +636,6 @@ left: 0;
     letter-spacing: 0.06em;
     color:var(--btn);
     padding: 0;
-    
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-field-btn:hover,
@@ -643,11 +644,11 @@ left: 0;
     box-shadow: 0px 2px 2px 1px rgb(0 0 0 /12%);
 }
 .form-field{
-    margin-right: 12px;
-    margin-left: 93px;
+display: flex;
+align-items: baseline;
+gap:12px;
 }
-.form-label{
-    display: block;
+.form-label-title{
     /* flex-direction: column; */
     font-weight: 700;
     line-height: 1.14;
